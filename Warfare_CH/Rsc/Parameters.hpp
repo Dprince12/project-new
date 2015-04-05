@@ -5,11 +5,13 @@ class Params {
 		title = "$STR_WF_PARAMETER_GroupSizeAI";
 		values[] = {2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,35,40,45,50,60,70,80,90,100};
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
+		default = 16;
 	};
 	class aiGroupSizePlayer {
 		title = "$STR_WF_PARAMETER_GroupSizePlayer";
 		values[] = {2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,35,40,45,50,60,70,80,90,100};
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
+		default = 30;
 	};
 	class aiKeepUnits {
 		title = "$STR_WF_PARAMETER_KeepAI";
@@ -41,6 +43,7 @@ class Params {
 		title = "$STR_WF_PARAMETER_ArtilleryUI";
 		values[] = {0,1};
 		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
+		default = 1;
 	};
 	class artilleryRange {
 		title = "$STR_WF_PARAMETER_Artillery";
@@ -370,6 +373,7 @@ class Params {
 		title = "$STR_WF_PARAMETER_VictoryCondition";
 		values[] = {0,1,2,3};
 		texts[] = {"$STR_WF_PARAMETER_Victory_Annihilation","$STR_WF_PARAMETER_Victory_Assassination","$STR_WF_PARAMETER_Victory_Supremacy","$STR_WF_PARAMETER_Victory_Towns"};
+		default = 0;
 	};
 	class gameplayViewDistance {
 		title = "$STR_WF_PARAMETER_ViewDistance";
